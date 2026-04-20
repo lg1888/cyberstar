@@ -2,8 +2,6 @@
 <input>
 <net-file value="network.net.xml"/>
 <route-files value="routes.xml"/>
-<!--for gui settings file, add this line-->
-<gui-settings-file value="simplest_gui.xml"/>
 </input>
 <time>
 <begin value="0"/>
