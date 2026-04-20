@@ -1,0 +1,36 @@
+<edges>
+<edge id="h_0_0_to_0_1" from="int_0_0" to="int_0_1" numLanes="2" speed="13.89"/>
+<edge id="h_0_1_to_0_0" from="int_0_1" to="int_0_0" numLanes="2" speed="13.89"/>
+<edge id="h_0_1_to_0_2" from="int_0_1" to="int_0_2" numLanes="2" speed="13.89"/>
+<edge id="h_0_2_to_0_1" from="int_0_2" to="int_0_1" numLanes="2" speed="13.89"/>
+<edge id="h_1_0_to_1_1" from="int_1_0" to="int_1_1" numLanes="2" speed="13.89"/>
+<edge id="h_1_1_to_1_0" from="int_1_1" to="int_1_0" numLanes="2" speed="13.89"/>
+<edge id="h_1_1_to_1_2" from="int_1_1" to="int_1_2" numLanes="2" speed="13.89"/>
+<edge id="h_1_2_to_1_1" from="int_1_2" to="int_1_1" numLanes="2" speed="13.89"/>
+<edge id="v_0_0_to_1_0" from="int_0_0" to="int_1_0" numLanes="2" speed="13.89"/>
+<edge id="v_1_0_to_0_0" from="int_1_0" to="int_0_0" numLanes="2" speed="13.89"/>
+<edge id="v_0_1_to_1_1" from="int_0_1" to="int_1_1" numLanes="2" speed="13.89"/>
+<edge id="v_1_1_to_0_1" from="int_1_1" to="int_0_1" numLanes="2" speed="13.89"/>
+<edge id="v_0_2_to_1_2" from="int_0_2" to="int_1_2" numLanes="2" speed="13.89"/>
+<edge id="v_1_2_to_0_2" from="int_1_2" to="int_0_2" numLanes="2" speed="13.89"/>
+<edge id="north_0_in" from="north_0" to="int_0_0" numLanes="2" speed="13.89"/>
+<edge id="north_1_in" from="north_1" to="int_0_1" numLanes="2" speed="13.89"/>
+<edge id="north_2_in" from="north_2" to="int_0_2" numLanes="2" speed="13.89"/>
+<edge id="north_0_out" from="int_0_0" to="north_0" numLanes="2" speed="13.89"/>
+<edge id="north_1_out" from="int_0_1" to="north_1" numLanes="2" speed="13.89"/>
+<edge id="north_2_out" from="int_0_2" to="north_2" numLanes="2" speed="13.89"/>
+<edge id="south_0_in" from="south_0" to="int_1_0" numLanes="2" speed="13.89"/>
+<edge id="south_1_in" from="south_1" to="int_1_1" numLanes="2" speed="13.89"/>
+<edge id="south_2_in" from="south_2" to="int_1_2" numLanes="2" speed="13.89"/>
+<edge id="south_0_out" from="int_1_0" to="south_0" numLanes="2" speed="13.89"/>
+<edge id="south_1_out" from="int_1_1" to="south_1" numLanes="2" speed="13.89"/>
+<edge id="south_2_out" from="int_1_2" to="south_2" numLanes="2" speed="13.89"/>
+<edge id="west_0_in" from="west_0" to="int_0_0" numLanes="2" speed="13.89"/>
+<edge id="west_1_in" from="west_1" to="int_1_0" numLanes="2" speed="13.89"/>
+<edge id="west_0_out" from="int_0_0" to="west_0" numLanes="2" speed="13.89"/>
+<edge id="west_1_out" from="int_1_0" to="west_1" numLanes="2" speed="13.89"/>
+<edge id="east_0_in" from="east_0" to="int_0_2" numLanes="2" speed="13.89"/>
+<edge id="east_1_in" from="east_1" to="int_1_2" numLanes="2" speed="13.89"/>
+<edge id="east_0_out" from="int_0_2" to="east_0" numLanes="2" speed="13.89"/>
+<edge id="east_1_out" from="int_1_2" to="east_1" numLanes="2" speed="13.89"/>
+</edges>

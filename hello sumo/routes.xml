@@ -1,0 +1,9 @@
+<routes>
+<vType id="car" guiShape="passenger"/>
+<route id="r0" edges="road"/>
+<vehicle id="v0" type="car" route="r0" depart="0"/>
+<vehicle id="v1" type="car" route="r0" depart="5"/>
+<vehicle id="v2" type="car" route="r0" depart="10"/>
+<vehicle id="v3" type="car" route="r0" depart="15"/>
+<vehicle id="v4" type="car" route="r0" depart="20"/>
+</routes>

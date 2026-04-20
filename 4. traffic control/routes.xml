@@ -1,0 +1,21 @@
+<routes>
+<vType id="car" guiShape="passenger"/>
+<!-- Through traffic - all 4 directions -->
+<flow id="north_south" type="car" begin="0" end="600" vehsPerHour="120" from="north_in" to="
+south_out"/>
+<flow id="south_north" type="car" begin="0" end="600" vehsPerHour="120" from="south_in" to="
+north_out"/>
+<flow id="east_west" type="car" begin="0" end="600" vehsPerHour="120" from="east_in" to="
+west_out"/>
+<flow id="west_east" type="car" begin="0" end="600" vehsPerHour="120" from="west_in" to="
+east_out"/>
+<!-- Turning traffic - creates demand on conflicting phases -->
+<flow id="north_east" type="car" begin="10" end="590" vehsPerHour="40" from="north_in" to="
+east_out"/>
+<flow id="south_west" type="car" begin="10" end="590" vehsPerHour="40" from="south_in" to="
+west_out"/>
+<flow id="east_south" type="car" begin="15" end="585" vehsPerHour="40" from="east_in" to="
+south_out"/>
+<flow id="west_north" type="car" begin="15" end="585" vehsPerHour="40" from="west_in" to="
+north_out"/>
+</routes>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net>
+    <!-- Define Nodes -->
+    <nodes>
+        <node id="entry" x="0.0" y="0.0" type="priority"/>
+        <node id="exit" x="500.0" y="0.0" type="priority"/>
+    </nodes>
+
+    <!-- Define Edges (Links) -->
+    <edges>
+        <edge id="entry_exit" from="entry" to="exit" numLanes="2" speed="50"/>
+    </edges>
+
+    <!-- Define Connections -->
+    <connections>
+        <connection from="entry_exit" to="entry_exit" fromLane="0" toLane="0"/>
+        <connection from="entry_exit" to="entry_exit" fromLane="1" toLane="1"/>
+    </connections>
+</net>

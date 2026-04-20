@@ -1,0 +1,9 @@
+<routes>
+<vType id="car" vClass="passenger" color="30,144,255" length="4.5" carFollowModel="IDM">
+<param key="accel" value="2.6"/>
+<param key="decel" value="4.5"/>
+<param key="minGap" value="2.5"/>
+</vType>
+<flow id="nw_to_se" type="car" begin="0" end="600" number="100" from="north_0_in" to="south_2_out
+"/>
+</routes>

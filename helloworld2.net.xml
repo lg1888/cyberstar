@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated for SUMO simulation -->
+
+<net version="1.20">
+    <!-- Junctions -->
+    <junction id="J0" x="0.0" y="0.0" type="priority"/>
+    <junction id="J1" x="100.0" y="0.0" type="allway_stop"/>
+    <junction id="J2" x="200.0" y="0.0" type="priority"/>
+
+    <!-- Edges -->
+    <edge id="E0" from="J0" to="J1" priority="1">
+        <lane id="E0_0" index="0" speed="13.9" length="100.0" shape="0.0,0.0 100.0,0.0"/>
+        <lane id="E0_1" index="1" speed="13.9" length="100.0" shape="0.0,3.5 100.0,3.5"/>
+        <lane id="E0_2" index="2" speed="13.9" length="100.0" shape="0.0,7.0 100.0,7.0"/>
+    </edge>
+
+    <edge id="E1" from="J1" to="J2" priority="1">
+        <lane id="E1_0" index="0" speed="13.9" length="100.0" shape="100.0,0.0 200.0,0.0"/>
+        <lane id="E1_1" index="1" speed="13.9" length="100.0" shape="100.0,3.5 200.0,3.5"/>
+        <lane id="E1_2" index="2" speed="13.9" length="100.0" shape="100.0,7.0 200.0,7.0"/>
+    </edge>
+
+    <!-- Connections -->
+    <connection from="E0" to="E1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from="E0" to="E1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from="E0" to="E1" fromLane="2" toLane="2" dir="s" state="M"/>
+
+		<!-- Stop at the middle of the route -->
+	<additional>
+		<stop id="stop_v0_lane0" lane="E1_0" pos="50.0" duration="50" until="10" friendlyPos="true"/>
+		<stop id="stop_v0_lane1" lane="E1_1" pos="50.0" duration="50" until="10" friendlyPos="true"/>
+		<stop id="stop_v0_lane2" lane="E1_2" pos="50.0" duration="50" until="10" friendlyPos="true"/>
+	</additional>
+</net>

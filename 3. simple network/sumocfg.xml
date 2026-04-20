@@ -1,0 +1,14 @@
+<configuration>
+<input>
+<net-file value="grid_2x3_step1.net.xml"/>
+<route-files value="routes.xml"/>
+</input>
+<time>
+<begin value="0"/>
+<end value="600"/>
+<step-length value="0.1"/>
+</time>
+<gui_only>
+<gui-settings-file value="gui_settings.xml"/>
+</gui_only>
+</configuration>
